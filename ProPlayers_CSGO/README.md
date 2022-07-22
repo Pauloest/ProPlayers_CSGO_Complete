@@ -24,3 +24,21 @@ Agora, verifique se o seu computador está conectado à mesma rede que o disposi
 5- Ao executar a API com expo start, aguarde o carregamento dos scripts. Será aberto uma interface do Expo em seu navegador com o título: "SoccerApp on Expo Developer Tools". Aqui é possível visualizar o status de Metro Builder, configurações de conexão e outras opções como:  Run on Android device/emulator  Run on iOS simulator  Run in web browser  Send link with email…  Publish or republish project…  
 
 6- Após o Expo estar instalado em seu celular, abra-o, escaneie o QR Code e a API será executada.  Caso queira executar a API pelo computador, você pode utilizar o caminho Run in web browser(atalho W no console do terminal), seguido da tecla de atalho F12 para abrir o painel "devTools" do navegador de internet e abrir o Toggle Device toolbar, utilizando o atalho CTRL+SHIFT+ M para apresentar a versão utilizando um mobile; ou instalando algum emulador Android/iOS.
+
+# Backend (Mobile) 
+
+1- Vá até a pasta backend do repositório:  
+
+$ cd pro_players_CSGO/backend  
+
+2- Instale as dependências: 
+
+$ yarn / npm install 
+
+3- Instale o container
+
+$ docker-compose build
+
+4- Execute o backend
+
+yarn / npm start
